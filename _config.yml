@@ -28,6 +28,7 @@ theme: jekyll-theme-slate
 gems:
   - jekyll-feed
   - jekyll-paginate  
+  - jekyll-seo-tag  
 exclude:
   - Gemfile
   - Gemfile.lock
