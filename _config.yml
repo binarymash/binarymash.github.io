@@ -29,6 +29,7 @@ gems:
   - jekyll-feed
   - jekyll-paginate  
   - jekyll-seo-tag  
+  - jekyll-feed  
 exclude:
   - Gemfile
   - Gemfile.lock
