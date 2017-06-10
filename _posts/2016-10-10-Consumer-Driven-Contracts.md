@@ -1,6 +1,8 @@
 ---
-title:  "Consumer-Driven Contracts"
-date:   2016-10-10 12:00:00 -0000
+layout: post
+title: "Consumer-Driven Contracts"
+date: 2016-10-10 12:00:00 -0000
+comments: true
 tags: [Pact, Consumer Driven Contracts]
 ---
 

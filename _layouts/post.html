@@ -3,8 +3,8 @@ layout: default
 ---
 
 {% assign post = page %}
-{% assign words = content | number_of_words %}
 
+{% assign words = content | number_of_words %}
 {% if words < 180 %}
 {% capture duration %}less than 1 min{% endcapture %}
 {% elsif words < 360 %}
@@ -24,9 +24,6 @@ layout: default
     {{ content }}
 </div>
 
-<div class="share">
-  <strong>Tags:</strong>
-  {% for page_tag in page.tags %}
-  <a href="{{ base }}/tags/#{{ page_tag | replace:' ','-' }}">{{ page_tag }}</a>, 
-  {% endfor %}
-</div>
+{% include tags.html %}
+
+{% include comments.html %}
