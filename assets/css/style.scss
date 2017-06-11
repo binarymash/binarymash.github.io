@@ -34,6 +34,11 @@
   color: #fa0;    
 }
 
+.nav-item{
+  color: #fa0;  
+  margin-right:15px;  
+}
+
 h2 {
     font-size: 24px;
 }
@@ -42,4 +47,17 @@ h2 {
   background: url('../images/bg_hr.png') repeat-x bottom;
   padding-bottom: 20px; 
   margin-bottom: 20px;
+}
+
+#header_wrap .inner {
+    padding: 30px 10px 10px 10px;
+}
+
+#main_content_wrap {
+    border-bottom: none;
+}
+
+body {
+    background: #f2f2f2;
+    font-size: 18px;
 }
