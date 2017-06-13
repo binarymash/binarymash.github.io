@@ -2,14 +2,23 @@
 layout: default
 title: Home
 ---
-<h3>Recent posts</h3>
 
-{% for post in site.posts %}
-<div class="post">
-    <div class="post-header">
-        <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        <span class="post-date">{{ post.date | date_to_string }}</span>
+<div class="row">
+    <div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+        <h2>Recent posts</h2>
+
+        {% for post in site.posts %}
+        <section class="post">
+            <div class="post-header">
+                <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+            {% include postmetadata.html %}
+            </div>
+            {{ post.excerpt }}
+        </section>
+
+        {% if forloop.last != true %}
+        <hr>
+        {% endif %}
+        {% endfor %}
     </div>
-    {{ post.excerpt }}
 </div>
-{% endfor %}

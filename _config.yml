@@ -21,10 +21,10 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: binarymash
 github_username:  binarymash
 paginate:            10
+lang: "en-GB"
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-slate
 gems:
   - jekyll-feed
   - jekyll-paginate  
