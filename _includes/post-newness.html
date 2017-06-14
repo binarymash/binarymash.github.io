@@ -1,0 +1,7 @@
+{% assign today = site.time | date: '%s' %}
+{% assign start = post.date | date: '%s' %}
+{% assign daysSince = today | minus: start | divided_by: 60 | divided_by: 60 | divided_by: 24 %}
+
+{% if daysSince < 10 %}
+ <span class="label label-info">New</span>
+{% endif %}

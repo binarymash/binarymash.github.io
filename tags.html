@@ -22,7 +22,8 @@ permalink: /Tags/
   <ul>
   {% for post in site.tags[originaltag] %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a> <span class="visible-lg-inline">{% include postmetadata.html %}</span>
+      <div><a href="{{ post.url }}">{{ post.title }}</a> {% include post-newness.html %}</div>
+      <div class="visible-lg-inline">{% include postmetadata.html %}</div>
     </li>
   {% endfor %}
   </ul>

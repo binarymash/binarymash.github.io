@@ -10,7 +10,7 @@ title: Home
         {% for post in site.posts %}
         <section class="post">
             <div class="post-header">
-                <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a> {% include post-newness.html %}</h2>
             {% include postmetadata.html %}
             </div>
             {{ post.excerpt }}
