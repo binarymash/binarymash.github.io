@@ -1,20 +1,19 @@
 $(document).ready(function(){
      $(window).scroll(function () {
-            if ($(this).scrollTop() > 50) {
-                $('#back-to-top').fadeIn();
+            if ($(this).scrollTop() > 100) {
+                $('#go-to-top').fadeIn();
             } else {
-                $('#back-to-top').fadeOut();
+                $('#go-to-top').fadeOut();
             }
         });
-        // scroll body to 0px on click
-        $('#back-to-top').click(function () {
-            $('#back-to-top').tooltip('hide');
+
+        $('#go-to-top').click(function () {
+            $('#go-to-top').tooltip('hide');
             $('body,html').animate({
                 scrollTop: 0
-            }, 800);
+            }, 250);
             return false;
         });
         
-        $('#back-to-top').tooltip('show');
-
+        $('#go-to-top').tooltip('show');
 });
