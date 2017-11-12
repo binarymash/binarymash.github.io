@@ -14,8 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: binarymash
-description: > # this means to ignore newlines until "baseurl:"
-  the random thoughts and doings of a professional code monkey
+description: the random thoughts and doings of a professional code monkey
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: binarymash
@@ -28,7 +27,7 @@ markdown: kramdown
 gems:
   - jekyll-feed
   - jekyll-paginate  
-  - jekyll-seo-tag  
+  # - jekyll-seo-tag  
   - jekyll-feed  
 exclude:
   - Gemfile
