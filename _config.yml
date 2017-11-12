@@ -24,10 +24,9 @@ lang: "en-GB"
 
 # Build settings
 markdown: kramdown
-gems:
+plugins:
   - jekyll-feed
   - jekyll-paginate  
-  # - jekyll-seo-tag  
   - jekyll-feed
   - jekyll-sitemap  
 exclude:
