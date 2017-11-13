@@ -1,0 +1,8 @@
+{% assign words = post.content | number_of_words %}
+{% if words < 180 %}
+{% capture duration %}less than 1 min{% endcapture %}
+{% elsif words < 360 %}
+{% capture duration %}1 min{% endcapture %}
+{% else %}
+{% capture duration %}{{ words | divided_by:180 }} mins{% endcapture %}
+{% endif %}

@@ -3,6 +3,7 @@ layout: post
 title:  "Build Pipelines #1: A Journey Of Discovery"
 date:   2017-06-10 12:00:00 -0000
 tags: [Automation, Continous Delivery, Build Pipelines, Cake, AppVeyor, Travis, GitVersion, GitReleaseNotes, OpenCover, Coveralls]
+keywords: "Automation, Continous Delivery, Build Pipelines, Cake, AppVeyor, Travis, GitVersion, GitReleaseNotes, OpenCover, Coveralls"
 comments: true
 ---
 I've been spending some time recently setting up build pipelines for a number of open source projects I contribute to. I've been using automated build pipelines for about 15 years, but it's been a while since I've built one from from scratch, and in the meantime technology has moved on. So, despite my previous experience, setting up the new pipelines has been a great opportunity to learn. 

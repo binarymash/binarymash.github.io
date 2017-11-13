@@ -3,6 +3,10 @@ layout: default
 ---
 
 {% assign post = page %}
+{% include post-metadata.html %}
+{% include json-ld/blogpost.html
+    content=page.content
+    link=page.permalink %}
 
 <div class="row">
     <div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
@@ -10,7 +14,7 @@ layout: default
         <section class="post">
             <div class="post-header">
                 <h1 class="post-title">{{ page.title }} {% include post-newness.html %}</h1>
-                {% include postmetadata.html %}
+                {% include post-subtitle.html %}
             </div>
             {{ content }}
         </section>

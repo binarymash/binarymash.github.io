@@ -4,6 +4,7 @@ title: "Visual Studio Shortcuts"
 date: 2017-07-18 12:00:00 -0000
 comments: true
 tags: [Visual Studio]
+keywords: "visual studio, shortcuts"
 ---
 
 In my post [Diagnosing Process Crashes, or, What To Do When Computers Choose To Hate Us]({{ site.baseurl }}{% post_url 2017-06-18-Diagnosing-Process-Crashes %}) I wrote in passing about knowing how to use the correct tools to solve the problem in hand. However, knowing which tool best solves a problem does not necessarily mean that we know how to use that tool efficiently.

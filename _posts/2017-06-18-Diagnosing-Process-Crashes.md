@@ -4,6 +4,7 @@ title: "Diagnosing Process Crashes, or, What To Do When Computers Choose To Hate
 date: 2017-06-18 12:00:00 -0000
 comments: true
 tags: [Debug Diagnostics]
+keywords: "Debug Diagnostics, debugging, asp.net, crash, exception, iis"
 ---
 
 By their very nature computers are deterministic. We tell them what to do, and they unquestioningly follow our orders, repeatably and consistently. This is what makes us techies the happy, contented people that we are; we are the masters of our machines.

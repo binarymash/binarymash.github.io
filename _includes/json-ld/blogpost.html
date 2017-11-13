@@ -1,0 +1,20 @@
+<script type="application/ld+json">
+{  
+   "@context":"https://schema.org",
+   "@type":"BlogPosting",
+   "headline":"{{ post.title }}",
+   "genre":"{{ post.category }}",
+   "keywords":"{{ post.keywords }}",
+   "wordCount":"{{ words }}",
+   "url":"{{ site.url}}{{ post.url }}",
+   "datePublished":"{{ post.date | | date: '%Y-%m-%d' }}",
+   "author": {% include json-ld/me.html %},
+   "publisher" : {% include json-ld/publisher.html %},
+   "mainEntityOfPage":{  
+      "@type":"WebPage",
+      "@id":"{{ site.url }}{{ post.url }}"
+   },
+   "articleBody":"{{ include.content | strip_html | xml_escape | normalize_whitepace | strip_newlines | strip }}",
+   "isAccessibleForFree": True
+}
+</script>

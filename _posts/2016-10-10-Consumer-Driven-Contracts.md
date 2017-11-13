@@ -4,6 +4,7 @@ title: "Consumer-Driven Contracts"
 date: 2016-10-10 12:00:00 -0000
 comments: true
 tags: [Pact, Consumer Driven Contracts]
+keywords: "Pact, Consumer Driven Contracts, ThoughtWorks, Technology Radar, api, services, contracts"
 ---
 
 Like many tech companies, at my employer we have a spider’s web of internal services communicating over HTTP. Services call other services. The website calls services. Our iOS and Android apps use these services. The services are owned by a number of different teams, and the apps are owned by entirely separate teams. 
