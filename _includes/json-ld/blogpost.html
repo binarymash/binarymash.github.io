@@ -10,11 +10,12 @@
    "datePublished":"{{ post.date | | date: '%Y-%m-%d' }}",
    "author": {% include json-ld/me.html %},
    "publisher" : {% include json-ld/publisher.html %},
+   "isAccessibleForFree": "True",
+   "image":"{{ site.url }}/assets/images/computer.jpg",
    "mainEntityOfPage":{  
       "@type":"WebPage",
       "@id":"{{ site.url }}{{ post.url }}"
    },
-   "articleBody":"{{ include.content | strip_html | xml_escape | normalize_whitepace | strip_newlines | strip }}",
-   "isAccessibleForFree": True
+   "articleBody":"{{ include.content | strip_html | xml_escape | normalize_whitepace | strip_newlines | strip }}"
 }
 </script>
