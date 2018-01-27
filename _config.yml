@@ -13,6 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+author: binarymash
 title: binarymash
 description: the random thoughts and doings of a professional code monkey
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -21,6 +22,17 @@ twitter_username: binarymash
 github_username:  binarymash
 paginate:            10
 lang: "en-GB"
+logo: "/assets/images/logo.png"
+social:
+  name: binarymash
+  links:
+    - https://github.com/binarymash
+    - https://stackoverflow.com/users/1671745/binarymash
+    - https://www.linkedin.com/in/philip-wood-70b298a/
+    - https://twitter.com/binarymash
+twitter:
+  username: binarymash
+
 
 # Build settings
 markdown: kramdown
@@ -29,6 +41,7 @@ plugins:
   - jekyll-paginate  
   - jekyll-feed
   - jekyll-sitemap  
+  - jekyll-seo-tag
 exclude:
   - Gemfile
   - Gemfile.lock
