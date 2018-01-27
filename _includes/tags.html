@@ -3,7 +3,7 @@
   <i class="fa fa-tags" aria-hidden="true"></i>
   </h2>-->
   {% for page_tag in page.tags %}
-  <a href="{{ base }}/Tags/#{{ page_tag | replace:' ','-' }}">
+  <a href="{{ base }}/Tags#{{ page_tag | replace:' ','-' }}">
     <span class="label label-info">{{ page_tag }}</span>
   </a>
   {% endfor %}
