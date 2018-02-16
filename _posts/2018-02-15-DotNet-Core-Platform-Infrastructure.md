@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Dot Net Core Platform Infrastructure"
+title: ".NET Core Platform Infrastructure"
 description: "What do the .NET Core SDK and Runtime packages install, and to where?"
 date: 2018-02-15 12:00:00 -0000
 comments: true
