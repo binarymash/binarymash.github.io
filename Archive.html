@@ -16,7 +16,7 @@ title: Blog Posts
         <ul>
             {% endif %}
             <li>
-                <div><a href="{{ post.url }}">{{ post.title }}</a> {% include post-newness.html %}</div>
+                <div><a href="{{ post.url }}">{{ post.title }}</a></div>
                 <div class="visible-lg-inline">{% include post-metadata.html %}{% include post-subtitle.html %}</div>
             </li>
             {% if forloop.last %}
