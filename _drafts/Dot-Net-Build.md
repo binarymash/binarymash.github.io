@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Dot Net Build"
-date: 2018-01-08 12:00:00 -0000
+date: 2018-03-08 12:00:00 -0000
 comments: true
 tags: [msbuild]
 ---

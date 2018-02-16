@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Visual Studio Shortcuts"
+description: "Keyboard shortcuts are a great boost to productivity. Where can I find a list of shortcuts for Visual Studio?"
 date: 2017-07-18 12:00:00 -0000
 comments: true
 tags: [Visual Studio]

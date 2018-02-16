@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Diagnosing Process Crashes, or, What To Do When Computers Choose To Hate Us"
+description: "Microsoft's Debug Diagnostic Tool is a valuable resource when troubleshooting mysterious crashes. Here is how we used it to identify a mysterious crash."
 date: 2017-06-18 12:00:00 -0000
 comments: true
 tags: [Debug Diagnostics]

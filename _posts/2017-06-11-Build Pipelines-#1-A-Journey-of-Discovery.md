@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Build Pipelines #1: A Journey Of Discovery"
+description: "Build automation is a good thing. How has it evolved over the years for the average .NET developer?"
 date:   2017-06-10 12:00:00 -0000
 tags: [Automation, Continous Delivery, Build Pipelines, Cake, AppVeyor, Travis, GitVersion, GitReleaseNotes, OpenCover, Coveralls]
 keywords: "Automation, Continous Delivery, Build Pipelines, Cake, AppVeyor, Travis, GitVersion, GitReleaseNotes, OpenCover, Coveralls"
