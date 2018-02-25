@@ -2,7 +2,7 @@
 layout: post
 title: "Hosted Pact Broker"
 description: "Now you can use Consumer-Driven Contracts and Pact without having to worry about hosting your own Pact broker"
-date: 2018-02-20 12:00:00 -0000
+date: 2018-02-25 11:02:00 -0000
 comments: true
 tags: [Pact, Consumer Driven Contracts]
 keywords: "Pact, Consumer Driven Contracts, api, services, contracts"
