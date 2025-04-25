@@ -1,8 +1,18 @@
 # Notes to self....
 
-## Running locally
+## Adding posts and testing locally
 
-I'm building this locally on WSL. Run...
+Note: I'm building this locally on WSL. 
+
+Add new content, then build the site...
+
+```bash
+bundle exec jekyll build
+```
+
+The new post should now be visible on the filesystem under _site.
+
+We can test how this looks for real by running the site locally:
 
 ```bash
 bundle exec jekyll serve
