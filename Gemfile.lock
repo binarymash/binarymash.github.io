@@ -283,10 +283,6 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages (~> 232)
-  jekyll-feed (~> 0.17.0)
-  jekyll-seo-tag
-  jekyll-sitemap
-  jekyll-theme-slate
   tzinfo-data
 
 RUBY VERSION
